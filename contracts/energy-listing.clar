@@ -1,16 +1,3 @@
-(define-trait energy-listing-trait
-  (
-    (get-energy-listing (uint) (response (optional {
-      seller: principal,
-      energy-amount: uint,
-      price-per-kwh: uint,
-      expiration: uint,
-      active: bool
-    }) uint))
-    (update-listing (uint uint uint uint) (response bool uint))
-  )
-)
-
 ;; Energy Listing Contract
 
 (define-data-var listing-counter uint u0)
@@ -22,10 +9,6 @@
   expiration: uint,
   active: bool
 })
-
-(define-read-only (get-energy-listing (id uint))
-  (map-get? energy-listings id)
-)
 
 (define-public (create-listing (energy-amount uint) (price-per-kwh uint) (expiration uint))
   (let
@@ -72,4 +55,3 @@
   (var-get listing-counter)
 )
 
-(impl-trait .energy-listing.energy-listing-trait)

@@ -15,11 +15,6 @@ path = 'contracts/energy-listing.clar'
 clarity_version = 2
 epoch = 2.5
 
-[contracts.energy-trade]
-path = 'contracts/energy-trade.clar'
-clarity_version = 2
-epoch = 2.5
-
 [contracts.smart-meter-integration]
 path = 'contracts/smart-meter-integration.clar'
 clarity_version = 2
