@@ -7,3 +7,5 @@ K
 contracts/energy-trade.clar,b/3/b3c74a0efdfe43ff0103732e154d2eb7184af145
 U
 %contracts/energy-certificate-nft.clar,1/d/1d310a05cc27daae0b322eeac151e36c9e3da715
+V
+&contracts/smart-meter-integration.clar,3/1/31ae9b85058ec498de7661815f1bd55d66ecd999
