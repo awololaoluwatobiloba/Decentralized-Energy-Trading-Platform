@@ -5,3 +5,5 @@ M
 contracts/energy-listing.clar,b/1/b13fc64791048c68b89a94ab01afd4d410cc9767
 K
 contracts/energy-trade.clar,b/3/b3c74a0efdfe43ff0103732e154d2eb7184af145
+U
+%contracts/energy-certificate-nft.clar,1/d/1d310a05cc27daae0b322eeac151e36c9e3da715

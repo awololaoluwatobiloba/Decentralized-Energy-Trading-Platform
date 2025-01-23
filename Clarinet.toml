@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.energy-certificate-nft]
+path = 'contracts/energy-certificate-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.energy-listing]
 path = 'contracts/energy-listing.clar'
 clarity_version = 2
